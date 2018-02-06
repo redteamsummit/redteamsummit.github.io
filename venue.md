@@ -6,7 +6,7 @@ permalink: /venue.html
 
 <h1 class="page-title black-text">{{ page.title | escape }}</h1>
 
-Red Team Summit 2018 will be held at Google's San Francisco office.
+Red Team Summit 2018 will be held at Google's San Francisco office, 7th floor.
 
 You **must** have been invited and completed our RSVP process to attend.  Those
 without a confirmed RSVP will not be on our list and **will** be turned away by
@@ -14,6 +14,7 @@ building security.  Invitations are not transferrable between organizations.
 
 Address:
 
+7th Floor  
 345 Spear Street  
 San Francisco, CA 94105
 

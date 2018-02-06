@@ -7,13 +7,12 @@ permalink: /about/
 <h1 class="page-title black-text">{{ page.title | escape }}</h1>
 
 The Red Team Summit is an all-day conference in February for internal Red Teams
-to share tips, tricks and experiences.  The Red Team Summit is focused on how to
-be an effective attacker for your organization and how to demonstrate the
-maximum value to your organization as opposed to "Here's how to hack my
-employer."
+(by internal Red Teams) to share tips, tricks and experiences.  The Red Team
+Summit is focused on how to be an effective attacker for your organization and
+how to demonstrate the maximum value to your organization as opposed to "Here's
+how to hack my employer."
 
-Red Team Summit is a hacking conference for internal red teams, by internal red
-teams. Offensive security operators present various TTPs to share lessons
+Offensive security operators present various TTPs to share lessons
 learned from accumulated successes and failures. The format is similar to
 Facebook's War Room event for blue teamers.
 
