@@ -26,7 +26,7 @@ detailed agenda will be made available to invited participants.
 | 1:30  | Playing With Your Food |
 | 2:00  | Evading User Land Detections Via Function Hooking |
 | 2:30  | **Afternoon Break** |
-| 3:00  | Stealing Plaintext Credentials with SSHnake |
+| 3:00  | Stealing Plaintext Credentials with 3snake |
 | 3:30  | LFI == RFI |
 | 4:00  | Panel: Red Team Structure |
 | 5:00  | **Happy Hour** |
