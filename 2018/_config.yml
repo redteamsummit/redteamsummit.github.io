@@ -1,0 +1,10 @@
+title: Red Team Summit
+author: Red Team Summit
+email: red-team-summit@google.com
+description: > # this means to ignore newlines until "baseurl:"
+  The Red Team Summit homepage.
+
+github_username: redteamsummit
+
+sass:
+    style: compressed
