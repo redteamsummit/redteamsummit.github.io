@@ -41,9 +41,9 @@
         margin-bottom: 23px;
     }
 	.header_area .navbar {
-		background-image: -moz-linear-gradient( 0deg, rgb(20,29,162) 0%, rgb(155,92,246) 100%);
-		background-image: -webkit-linear-gradient( 0deg, rgb(20,29,162) 0%, rgb(155,92,246) 100%);
-		background-image: -ms-linear-gradient( 0deg, rgb(20,29,162) 0%, rgb(155,92,246) 100%);
+		background-image: -moz-linear-gradient( 0deg, rgb(230, 0, 0) 0%, rgb(255, 77, 148) 100%);
+		background-image: -webkit-linear-gradient( 0deg, rgb(230, 0, 0) 0%, rgb(255, 77, 148) 100%);
+		background-image: -ms-linear-gradient( 0deg, rgb(230, 0, 0) 0%, rgb(255, 77, 148) 100%);
 	}
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
 		opacity: 1;
@@ -163,19 +163,42 @@
 	.home_banner_area {
 		min-height: 700px;
 	}
+
+	.event_time_inner .event_text h3 {
+	  color: black;
+	  font-size: 21px;
+	  text-transform: uppercase;
+	  margin-bottom: 15px;
+	}
+
+	.event_time_inner {
+	  max-width: 950px;
+	  margin: auto;
+	  background: white;
+	  margin-top: -200px;
+	  border-radius: 5px;
+	  -webkit-box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);
+	  box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);
+	}
+
+	.timer_inner .timer .timer__section .timer__number {
+	  font-size: 36px;
+	  color: #e6005c;
+	  font-family: "Heebo", sans-serif;
+	  font-weight: bold;
+	}
+
 	.event_time_inner .event_text {
 		padding-left: 25px;
-		margin-bottom: 20px;
-		padding-right: 25px;
 	}
 	.event_time_inner {
 		margin-top: 0px;
 	}
 	.event_time_area{
-		padding-top: 120px;
+		padding-top: 20px;
 	}	
 	.welcome_text{
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	.team_item{
 		max-width: 263px;

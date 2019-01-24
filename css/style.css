@@ -3541,6 +3541,7 @@ h6 {
 
 .event_time_area.ab_event .event_time_inner {
   margin-top: 0px;
+  background: black;
 }
 
 .event_time_inner {
