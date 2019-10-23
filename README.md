@@ -23,10 +23,12 @@ This setup assumes you're using macOS with no Ruby environment:
 1. `brew install ruby`
 
 2. Append the following line to your ~/.bash_profile (or whatever is
-   appropriate for your shell):
+   appropriate for your shell). Make sure the Ruby major and minor versions
+   are correct so the path resolves. If you're not sure, bundle will tell
+   you what the path should be.
 
 ```
-export PATH=/usr/local/opt/ruby/bin:$PATH
+export PATH=/usr/local/opt/ruby/bin:~/.gem/ruby/2.6.0/bin:$PATH
 ```
 
 3. `gem install --user-install bundler`
