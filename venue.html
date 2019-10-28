@@ -1,54 +1,8 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>Red Team Summit 2019 | Venue</title>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="vendors/linericon/style.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-        <link rel="stylesheet" href="vendors/animate-css/animate.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-    </head>
-    <body>
-        
-        <!--================Header Menu Area =================-->
-        <header class="header_area">
-            <div class="main_menu">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container box_1620">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt="Red Team Summit"></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                            <ul class="nav navbar-nav menu_nav ml-auto">
-                                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-                                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li> 
-                                <li class="nav-item"><a class="nav-link" href="code.html">Code of Conduct</a></li>
-                                <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
-                                <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
-                                <li class="nav-item"><a class="nav-link" href="mailto: rts-2019@amazon.com">Contact</a></li>
-                                <li class="nav-item">&nbsp;&nbsp;&nbsp;</li>
-                            </ul>
-                        </div> 
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <!--================Header Menu Area =================-->
+---
+layout: null
+---
+
+{% include header.html %}
         
         <!--================Home Banner Area =================-->
         <section class="banner_area">
@@ -60,7 +14,7 @@
                             <a href="index.html">Home</a>
                             <a href="about.html">Venue</a>
                         </div>
-                        <h2>RTS 2019 Venue</h2>
+                        <h2>RTS {{ site.year }} Venue</h2>
                     </div>
                 </div>
             </div>
@@ -71,89 +25,14 @@
         <section class="welcome_area p_120">
             <div class="container">
                 <div class="code_text">
-                    Red Team Summit 2019 will be held at Amazon's Seattle office.<br/><br/>
-                    You <b>must</b> have been invited and completed our RSVP process to attend. Those without a confirmed RSVP will not be on our list and <b>will</b> be turned away by building security.  Invitations are not transferrable between organizations.
+                    <p>Red Team Summit {{ site.year }} will be held at Facebook's Menlo Park HQ, in building MPK 28.</p>
+                    <p>The address is 164 Jefferson Dr, Menlo Park, CA 94025. There is free parking on site.</p>
+                    <p>You <b>must</b> have been invited and completed our RSVP process to attend. Those without a confirmed RSVP will not be on our list and will be turned away by building security. Invitations are not transferrable between organizations.</p>
                 </div>
             </div>
         </section>
         <!--================End Welcome Area =================-->
 
-       <!--================End Event Schedule Area =================-->
-        
-        <section class="home_map_area">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.1742142227067!2d-122.33132249191735!3d47.62274469586984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490153bc67a5d5b%3A0xa91e9c10a999a3be!2sSouth+Lake+Union%2C+Seattle%2C+WA%2C+USA!5e0!3m2!1sen!2sjp!4v1548352592392" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <div class="home_details">
-                <div class="container">
-                    <div class="box_home_details">
-                        <div class="media">
-                            <div class="d-flex">
-                                <i class="lnr lnr-home"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4>Seattle, Washington, United States</h4>
-                                <p>Amazon Campus, South Lake Union</p>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="d-flex">
-                                <i class="lnr lnr-clock"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4>Tuesday to Wednesday</h4>
-                                <p>February 26-27, 2019</p>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="d-flex">
-                                <i class="lnr lnr-envelope"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4>rts-2019@amazon.com</h4>
-                                <p>Send us your query anytime!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End Event Schedule Area =================-->
-        
+        {% include map.html %}        
        
-        <!--================ start footer Area  =================-->    
-        <footer class="footer-area">
-            <div class="container">
-                <div class="row footer-bottom d-flex justify-content-between align-items-center">
-                    <img src="img/logo.png" alt="Red Team Summit">
-                    <p class="col-lg-8 col-md-8 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->Copyright &copy; <script>document.write(new Date().getFullYear());</script> Red Team Summit&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Template made by <a href="https://colorlib.com" target="_blank" style="color: #ccc">Colorlib</a><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    <br/><br/><br/><br/>
-                </div>
-            </div>
-        </footer>
-        <!--================ End footer Area  =================-->
-        
-        
-        
-        
-        
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/stellar.js"></script>
-        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
-        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="vendors/isotope/isotope-min.js"></script>
-        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="vendors/flipclock/timer.js"></script>
-        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-        <script src="vendors/counter-up/jquery.counterup.js"></script>
-        <script src="js/mail-script.js"></script>
-        <!--gmaps Js-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-        <script src="js/gmaps.min.js"></script>
-        <script src="js/theme.js"></script>
-    </body>
-</html>
+{% include footer.html %}
