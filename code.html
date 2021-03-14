@@ -3,33 +3,21 @@ layout: null
 ---
 
 {% include header.html %}
-
-<!--================Home Banner Area =================-->
-        <section class="banner_area">
-            <div class="banner_inner d-flex align-items-center">
-                <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
-                <div class="container">
-                    <div class="banner_content text-center">
-                        <div class="page_link">
-                            <a href="index.html">Home</a>
-                            <a href="code.html">Code of Conduct</a>
-                        </div>
-                        <h2>Code of Conduct</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End Home Banner Area =================-->
-        
+{% include vaporwave.html %}
         <!--================Welcome Area =================-->
-        <section class="welcome_area p_120">
+        <section class="welcome_area pad_top">
             <div class="container">
-                <div class="code_text">
-                    <p>Red Team Summit is dedicated to providing an inclusive, harassment-free conference experience for everyone. We encourage all participants to make each other feel welcome in activities throughout the conference.</p>
-                    <p>We do not tolerate harassment of any kind. Harassment includes, but is not limited to, deliberate actions such as intimidation or targeting individuals in a manner that makes them feel uncomfortable, unwelcome, or afraid.</p>
-                    <p>Participants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behavior, organizers may take any action they deem appropriate, including expulsion from the event and any future Red Team Summits.</p>
-                    <p>If you are being made to feel unwelcome, notice that someone else is being harassed, or have any other concerns, please contact an organizer as soon as possible. If you are not sure who to contact, reach out to <b>{{ site.contact_email }}</b>.</p>
-                    <p>By being part of Red Team Summit you agree to abide by this Code of Conduct.</p>
+                <div class="welcome_inner row">
+                    <div class="col">
+                        <h2 class="crt main_title">Code of Conduct</h2>
+                        <div class="code_text">
+                            <p>Red Team Summit is dedicated to providing an inclusive, harassment-free conference experience for everyone. We encourage all participants to make each other feel welcome in activities throughout the conference.</p>
+                            <p>We do not tolerate harassment of any kind. Harassment includes, but is not limited to, deliberate actions such as intimidation or targeting individuals in a manner that makes them feel uncomfortable, unwelcome, or afraid.</p>
+                            <p>Participants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behavior, organizers may take any action they deem appropriate, including expulsion from the event and any future Red Team Summits.</p>
+                            <p>If you are being made to feel unwelcome, notice that someone else is being harassed, or have any other concerns, please contact an organizer as soon as possible. If you are not sure who to contact, reach out to <b>{{ site.contact_email }}</b>.</p>
+                            <p>By being part of Red Team Summit you agree to abide by this Code of Conduct.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

@@ -3,52 +3,21 @@ layout: null
 ---
 
 {% include header.html %}
-        
-        <!--================Home Banner Area =================-->
-        <section class="home_banner_area">
-            <div class="banner_inner">
-				<div class="container">
-					<div class="banner_content">
-						<h2>a hacking conference<br/> for red teams, <br/>by red teams</h2>
-						<h3></h3>
-                        <p>A chance for Red Teams to share knowledge and work together.</p>
-                        <div class="tickets_btn">Cancelled</div>
-					</div>
-				</div>
-            </div>
-        </section>
-        <!--================End Home Banner Area =================-->
-       
-        
+{% include vaporwave.html %}
         <!--================Welcome Area =================-->
         <section class="welcome_area pad_btm">
         	<div class="container">
-        		<div class="welcome_inner row">
-                    <div class="welcome_text" style="margin:50px auto 10px; width:53em;">
-                        <h3>Red Team Summit 2020 is cancelled</h3>
-                        <p>In light of the growing concerns around COVID-19,
-                        we’ve decided to cancel the Red Team Summit this year.
-                        While this a difficult decision to make, our priority
-                        is the health and safety of attendees, employees, and
-                        everyone involved in the event. We plan to host the
-                        event in-person in 2021.</p>
-                        <p>We appreciate your understanding and cooperation. Thank
-                        you for your interest in the Red Team Summit and we
-                        look forward to joining together next year. If you have
-                        any questions, please reach out to our contact
-                        email.</p>
-                    </div>
-                </div>
-                <hr style="border-top:3px solid rgba(255,255,255,0.2);"/>
-        		<div class="welcome_inner row">
+        		<div class="welcome_inner row pad_top">
         			<div class="col-lg-5">
         				<div class="welcome_img">
-        					<br/><br/><br/><br/><img class="img-fluid" src="img/welcome-1.png" alt="Red Team Summit"><br/><br/>
+        					<img class="img-fluid" src="img/rts-2021.png" alt="Red Team Summit">
         				</div>
         			</div>
         			<div class="col-lg-6 offset-lg-1">
-        				<div class="welcome_text">
+        				<div class="welcome_text crt">
         					<h3>Welcome to RTS {{ site.year }}</h3>
+                            <h4>Date: March 31st, 2021</h4>
+                            <h4>Venue: Virtual</h4>
         					<p>Red Team Summit is an invite-only hacking conference for Red Teams. Offensive security operators are invited to present various TTPs and share lessons learned from accumulated successes and failures.</p>
         					<p>Intended audience and participants are in-house offensive security staff who execute operations against their employers.</p>
         					<p>Does your team write their own implants, run their own infra, and get shells? If so, then this conference is for you!</p>
@@ -58,8 +27,6 @@ layout: null
         		</div>
         	</div>
         </section>
-        <!--================End Welcome Area =================-->
-
-        {% include map.html %}        
+        <!--================End Welcome Area =================-->       
         
 {% include footer.html %}
