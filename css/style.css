@@ -1577,6 +1577,7 @@ button:focus {
   background: -o-linear-gradient(left, #e60000 0%, #ff4d94 70%);
   background: linear-gradient(to right, #e60000 0%, #ff4d94 70%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -2184,10 +2185,6 @@ button:focus {
   .element-wrap {
     margin-top: 30px;
   }
-}
-
-b, sup, sub, u, del {
-  color: ;
 }
 
 h1 {
@@ -3803,6 +3800,7 @@ h6 {
   background: -o-linear-gradient(left, #e60000 0%, #ff4d94 70%);
   background: linear-gradient(to right, #e60000 0%, #ff4d94 70%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -3843,6 +3841,7 @@ h6 {
   background: -o-linear-gradient(left, #e60000 0%, #ff4d94 70%);
   background: linear-gradient(to right, #e60000 0%, #ff4d94 70%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -3911,6 +3910,7 @@ h6 {
   background: -o-linear-gradient(left, #e60000 0%, #ff4d94 25%);
   background: linear-gradient(to right, #e60000 0%, #ff4d94 25%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 40px;
 }
