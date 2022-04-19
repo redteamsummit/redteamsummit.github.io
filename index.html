@@ -3,7 +3,25 @@ layout: null
 ---
 
 {% include header.html %}
-{% include vaporwave.html %}
+
+        <!--================Home Banner Area =================-->
+        <section class="home_banner_area">
+            <div class="banner_inner">
+				<div class="container">
+					<div class="banner_content">
+						<h2>a hacking conference<br/> for red teams, <br/>by red teams</h2>
+						<h3>June 29-30, Menlo Park</h3>
+                        <p>A chance for Red Teams to share knowledge and work together.</p>
+                        <div class="tickets_btn">CFP opens soon!</div>
+						<!--a class="tickets_btn" href="schedule.html">RTS {{ site.year }} Schedule</a><br/><br/>
+						<!--a class="tickets_btn" href="" target="_blank">CFP {{ site.year }}</a-->
+					</div>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+
+
         <!--================Welcome Area =================-->
         <section class="welcome_area pad_btm">
         	<div class="container">
@@ -16,11 +34,11 @@ layout: null
         			<div class="col-lg-6 offset-lg-1">
         				<div class="welcome_text crt">
         					<h3>Welcome to RTS {{ site.year }}</h3>
-                                                
+
                                                 <h4>June, 2022</h4>
                                                 <h4>Menlo Park, California</h4>
                                                 <h4>CFP will open soon</h4>
-                                                
+
         					<p>Red Team Summit is an invite-only hacking conference for Red Teams. Offensive security operators are invited to present various TTPs and share lessons learned from accumulated successes and failures.</p>
         					<p>Intended audience and participants are in-house offensive security staff who execute operations against their employers.</p>
         					<p>Does your team write their own implants, run their own infra, and get shells? If so, then this conference is for you!</p>
@@ -30,6 +48,8 @@ layout: null
         		</div>
         	</div>
         </section>
-        <!--================End Welcome Area =================-->       
-        
+        <!--================End Welcome Area =================-->
+
+        {% include map.html %}
+
 {% include footer.html %}
