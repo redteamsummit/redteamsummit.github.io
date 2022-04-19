@@ -69,13 +69,14 @@ a:hover, a:focus {
 body {
   line-height: 24px;
   font-size: 14px;
-  font-family: "unscii", "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #cfcfcf;
+  background-color: #010409;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "unscii", "Heebo", sans-serif;
+  font-family: "Menlo", "Heebo", sans-serif;
   font-weight: bold;
 }
 
@@ -124,6 +125,10 @@ button:focus {
   background: #fff !important;
 }
 
+.center {
+  text-align: center;
+}
+
 /* Main Title Area css
 ============================================================================================ */
 .main_title {
@@ -131,11 +136,10 @@ button:focus {
 }
 
 .main_title h2 {
-  font-family: "unscii", "Heebo", sans-serif;
+  font-family: "unscii", "Menlo";
   font-size: 36px;
-  color: #cfcfcf;
-  font-weight: bold;
-  margin-bottom: 15px;
+  color: #fff;
+  margin-bottom: 30px;
   text-transform: uppercase;
 }
 
@@ -420,11 +424,11 @@ button:focus {
 
 .home_banner_area .banner_inner .banner_content p {
   color: #f9f9ff;
-  font-family: "unscii", "Roboto", sans-serif;
+  font-family: "Menlo", "Roboto", sans-serif;
   max-width: 680px;
   font-size: 16px;
   line-height: 26px;
-  margin: 0px auto 35px;
+  margin: 35px auto;
 }
 
 .home_banner_area .banner_inner .banner_content .banner_map_img {
@@ -3624,10 +3628,15 @@ h6 {
 ============================================================================================ */
 /* Event Schedule Area css
 ============================================================================================ */
+
 .event_schedule_area .row {
   line-height: 2rem;
   color: #cfcfcf;
   font-size: 18px;
+}
+
+.event_schedule_inner {
+  padding-top: 60px;
 }
 
 .event_schedule_inner .nav-tabs {
@@ -3653,7 +3662,7 @@ h6 {
   color: #fff;
   font-size: 16px;
   font-weight: bold;
-  font-family: "unscii", "Heebo", sans-serif;
+  font-family: "Roboto", "Heebo", sans-serif;
   text-transform: uppercase;
 }
 
@@ -3683,14 +3692,15 @@ h6 {
 .event_schedule_inner .tab-pane .media .media-body h5 {
   font-size: 16px;
   font-weight: normal;
-  font-family: "unscii", "Roboto", sans-serif;
+  font-family: "Menolo", "Roboto", sans-serif;
+  color: #555;
 }
 
 .event_schedule_inner .tab-pane .media .media-body h4 {
   font-size: 16px;
-  font-family: "unscii", "Heebo", sans-serif;
+  font-family: "Menolo", "Heebo", sans-serif;
   font-weight: bold;
-  color: #cfcfcf;
+  color: #222;
   text-transform: uppercase;
 }
 
@@ -3730,16 +3740,25 @@ h6 {
 
 .code_text {
   color: #ccc;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 150%;
-  font-family: "unscii", "Menlo";
+  font-family: "Menlo";
+}
+
+.code_text.smaller {
+  font-size: 18px;
+}
+
+.code_text h2, .code_text h3, .code_text h4 {
+  margin-top: 34px;
+  color: #fff;
 }
 
 .welcome_text p {
   color: #ccc;
   font-size: 16px;
   margin-bottom: 25px;
-  font-family: "unscii", "Menlo";
+  font-family: "Menlo";
 }
 
 .welcome_text .main_btn {
@@ -4333,12 +4352,12 @@ h6 {
   opacity: 0;
   z-index: 2;
   pointer-events: none;
-  animation: flicker 0.15s infinite;
+  /*animation: flicker 0.15s infinite;*/
 }
 .crt::before {
   content: " ";
   display: block;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
@@ -4350,6 +4369,7 @@ h6 {
 }
 .crt {
   animation: textShadow 1.6s infinite;
+  position: relative;
 }
 .bg {
   width:100vw;
@@ -4457,7 +4477,7 @@ h6 {
   }
 }
 
-.static, .static::after {
+.static, .static-after::after {
   animation: none;
 }
 
