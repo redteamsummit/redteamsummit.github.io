@@ -1548,10 +1548,12 @@ button:focus {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  pointer-events:none;
 }
 
 .home_map_area .home_details .box_home_details {
   background: #fff;
+  color: #6f6f6f;
   max-width: 450px;
   float: right;
   width: 100%;
@@ -1560,6 +1562,7 @@ button:focus {
   padding-top: 80px;
   padding-bottom: 80px;
   border-radius: 10px;
+  pointer-events: all;
 }
 
 .home_map_area .home_details .box_home_details .media {
@@ -1587,7 +1590,7 @@ button:focus {
 
 .home_map_area .home_details .box_home_details .media .media-body h4 {
   font-size: 14px;
-  color: #cfcfcf;
+  color: #6f6f6f;
   text-transform: uppercase;
 }
 
