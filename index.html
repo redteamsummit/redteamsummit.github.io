@@ -3,6 +3,7 @@ layout: null
 ---
 
 {% include header.html %}
+{% include vaporwave.html %}
 
         <!--================Home Banner Area =================-->
         <section class="home_banner_area crt static">
@@ -33,8 +34,8 @@ layout: null
         				<div class="welcome_text crt">
         					<h3>Welcome to RTS {{ site.year }}</h3>
                     <h4>{{ site.event_date }}</h4>
-                    <h4 id="citystate">Sunnyvale, CA</h4>
-                    {% if site.show_cfp %}<h4>CFP is open until {{ site.cfp_close_date }}. RSVP links will be sent once talks have been accepted.</h4>{% endif %}
+                    <h4 id="citystate">{{ site.location }}</h4>
+                    {% if site.show_cfp %}<h4>CFP is open until {{ site.cfp_close_date }}. RSVPs will be sent once talks have been accepted.</h4>{% endif %}
         					<p>Red Team Summit is an invite-only hacking conference for Red Teams. Offensive security operators are invited to present various TTPs and share lessons learned from accumulated successes and failures.</p>
         					<p>Intended audience and participants are in-house offensive security staff who execute operations against their employers.</p>
         					<p>Does your team write their own implants, run their own infra, and get shells? If so, then this conference is for you!</p>
