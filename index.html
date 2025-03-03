@@ -27,7 +27,9 @@ layout: null
         		<div class="welcome_inner row pad_top">
         			<div class="col-lg-5">
         				<div class="welcome_img">
+							{% if site.logo_path %}
         					<img class="img-fluid" src="{{ site.logo_path }}" alt="Red Team Summit">
+							{% endif %}
         				</div>
         			</div>
         			<div class="col-lg-6 offset-lg-1">
