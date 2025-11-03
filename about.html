@@ -30,11 +30,13 @@ layout: null
                             <p>Red Team Summit is a community effort. It has been hosted by various companies who strive to keep it going in order to provide a forum for discussion among Red Teams.</p>
                         </div>
                     </div>
+                    {% if site.logo_path %}
                     <div class="col-lg-5" style="float: left;">
                         <div class="welcome_img">
                             <img class="img-fluid" src="{{ site.logo_path }}" alt="Red Team Summit" float: right;>
                         </div>
                     </div>
+                    {% endif %}
                 </div>
             </div>
         </section>
