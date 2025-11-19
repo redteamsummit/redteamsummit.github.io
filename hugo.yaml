@@ -12,6 +12,10 @@ outputs:
     - "HTML"
     - "RSS"
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 enableRobotsTXT: true
 
 #services:
