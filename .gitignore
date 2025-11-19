@@ -6,3 +6,7 @@ _site
 .jekyll-cache
 .DS_Store
 .jekyll-metadata
+
+public/
+resources/
+.hugo_build.lock
