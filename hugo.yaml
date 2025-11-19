@@ -1,7 +1,7 @@
 baseURL: "https://redteamsummit.com"
 languageCode: "en-us"
 title: "Red Team Summit"
-theme: hugo-profile
+theme: hugo-profile-rts
 
 outputs:
   home:
