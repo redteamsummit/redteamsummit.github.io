@@ -223,10 +223,11 @@ params:
       - 2025_emea:
         year: 2025
         dates: "Sep 24 & 25"
-        attendees: N/A
+        attendees: 87
         organizations: 25
-        cfp_submissions: 45
+        cfp_submissions: 38
         location: Zurich, Switzerland
+        logo: "/images/rts-emea-2025.png"
         extra: Red Team Summit has gone global, with the second event of 2025 and the first EMEA event.
 
       - 2025:
