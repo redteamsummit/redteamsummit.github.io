@@ -98,7 +98,7 @@ params:
     backgroundColor: "#eaedf0"
     secondaryBackgroundColor: "#64ffda1a"
     primaryColor: "#ff0c62"
-    secondaryColor: "#f8f9fa"
+    secondaryColor: "#812157"
 
     darkmode:
       textColor: "#e4e6eb"
@@ -107,7 +107,7 @@ params:
       backgroundColor: "#18191a"
       secondaryBackgroundColor: "#212529"
       primaryColor: "#ff0c62"
-      secondaryColor: "#212529"
+      secondaryColor: "#812157"
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -140,7 +140,7 @@ params:
 
       **When: March 10-11, 2026**  
       **Where: McLean, Virginia**
-    image: /images/rts-2026-web.png
+    image: /images/rts-2026.png
     bottomImage:
       enable: false
     # roundImage: true # Make hero image circular | default false
@@ -208,6 +208,106 @@ params:
       1. In order to be invited to attend the Red Team Summit, your organization must have been invited and have submitted at least one bona fide submission to the CFP. Low quality ("throw-away") submissions to attempt to gain an invite will be discarded with prejudice.
       1. No recordings or photos without the permission of all individuals visible. No photos of slides without the permission of the speaker.
       1. We expect that all attendees will be engaged in internal Red Team activities, even if their team or role also performs other services. When distributing invitations within organizations, teams should use their best judgment on who will benefit from attending. Individuals engaged solely in detection and response ("Blue Team") activities are generally not a fit for this event.
+
+  timeline:
+    enable: true
+    title: "History"
+    items:
+      - 2025_emea:
+        year: 2025
+        dates: "Sep 24 & 25"
+        attendees: N/A
+        organizations: 25
+        cfp_submissions: 45
+        location: Zurich, Switzerland
+        extra: Red Team Summit has gone global, with the second event of 2025 and the first EMEA event.
+
+      - 2025:
+        year: 2025
+        dates: "Mar 11 & 12"
+        attendees: 194
+        organizations: 61
+        cfp_submissions: 108
+        location: Redmond, Washington
+        logo: "/images/rts-2025.png"
+        extra: The first Red Team Summit with an electronic badge.
+
+      - 2024:
+        year: 2024
+        dates: "Mar 12 thru 14"
+        attendees: 210
+        organizations: 65
+        cfp_submissions: 92
+        location: Sunnyvale, California
+        logo: "/images/rts-2024.png"
+        extra: The first 3-day Red Team Summit, with a special interest AI-focused day.
+
+      - 2023:
+        year: 2023
+        dates: "Jun 8 & 9"
+        attendees: 78
+        organizations: 37
+        cfp_submissions: 56
+        location: Chicago, Illinois
+        extra: Red Team Summit has broken containment on the west coast and made it east for the first time.
+
+      - 2022:
+        year: 2022
+        dates: "Jun 29 & 30"
+        attendees: 85
+        organizations: 25
+        cfp_submissions: 39
+        location: Menlo Park, California
+        logo: "/images/rts-2020.png"
+        extra: Our host from 2020 graciously offered to host the first live Summit after COVID restrictions began to lift.
+
+      - 2021:
+        year: 2021
+        dates: "Mar 31"
+        attendees: 341
+        organizations: "N/A"
+        cfp_submissions: 42
+        location: Virtual
+        logo: "/images/rts-2021.png"
+        extra: Due to world events, a special virtual Red Team Summit was hosted to bring the community together after a pretty rough year.
+
+      - 2020:
+        year: 2020
+        dates: "Mar 12 & 13"
+        attendees: 0
+        organizations: 0
+        cfp_submissions: 78
+        location: "Cancelled due to COVID"
+        logo: "/images/rts-2020.png"
+
+      - 2019:
+        year: 2019
+        dates: "Feb 26 & 27"
+        attendees: 235
+        organizations: 65
+        cfp_submissions: 70
+        location: Seattle, Washington
+        logo: "/images/rts-2019.png"
+        extra: The first Red Team Summit that attendees crossed oceans for.
+
+      - 2018:
+        year: 2018
+        dates: "Feb 27"
+        attendees: 80
+        organizations: 28
+        cfp_submissions: 33
+        location: San Francisco, California
+        logo: "/images/rts-2018.png"
+
+      - 2017:
+        year: 2017
+        dates: "Feb 27"
+        attendees: 40
+        organizations: 18
+        cfp_submissions: 18
+        location: San Francisco, California
+        logo: "/images/rts-2017.jpg"
+        extra: The inaugural Red Team Summit.    
 
   # Experience
   experience:

@@ -1,0 +1,38 @@
+{{ if .Site.Params.timeline.enable | default false }}
+<section id="history" class="py-0 py-sm-5">
+    <div class="container bg-transparent">
+        <h3 class="text-center bg-transparent">{{.Site.Params.timeline.title}}</h3>
+        <ul class="timeline">
+            {{ range $i,$p := .Site.Params.timeline.items }}
+                <li>
+                    <div class="{{if not (modBool $i 2)}}direction-r{{else}}direction-l{{end}}">
+                        <div class="flag-wrapper">
+                            <span class="hexa"></span>
+                            <span class="flag">{{$p.year}}</span>
+                            <span class="time-wrapper">
+                                <span class="time">{{$p.location}}</span>
+                                <span class="dates">{{$p.dates}}</span>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <img class="timeline-logo" src="{{if $p.logo }}{{$p.logo}}{{else}}/images/rts-404.png{{end}}">
+                            <div class="stats">
+                                <span class="timeline-stat">
+                                    <span class="label">Attendees:</span><span class="value">{{$p.attendees}}</span>
+                                </span>
+                                <span class="timeline-stat">
+                                    <span class="label">Organizations:</span><span class="value">{{$p.organizations}}</span>
+                                </span>
+                                <span class="timeline-stat">
+                                    <span class="label">CFP Submissions:</span><span class="value">{{$p.cfp_submissions}}</span>
+                                </span>
+                            </div>
+                            {{if $p.extra}}<div class="desc-extra">{{$p.extra}}</div>{{end}}
+                        </div>
+                    </div>
+                </li>
+            {{end}}
+        </ul>
+    </div>
+</section>
+{{ end }}

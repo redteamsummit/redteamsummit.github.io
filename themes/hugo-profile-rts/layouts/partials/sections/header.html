@@ -122,6 +122,14 @@
                         </a>
                     </li>
                     {{ end }}
+                    {{ if and (.Site.Params.timeline.enable | default false) (not
+                    (.Site.Params.navbar.menus.disableTimeline | default false)) }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#history" aria-label="history">
+                            {{ .Site.Params.timeline.title | default "History" }}
+                        </a>
+                    </li>
+                    {{ end }}
 
                     {{ if and (.Site.Params.experience.enable | default false) (not
                     (.Site.Params.navbar.menus.disableExperience | default false)) }}
