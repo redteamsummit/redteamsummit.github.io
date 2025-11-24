@@ -157,19 +157,26 @@ params:
     title: "About"
     image: ""
     content: |-
-      Red Team Summit is an annual two-day conference in Q1/Q2, organized and hosted by internal Red Teams, for internal Red Teams to come together and share tips, tricks, and experiences. Red Team Summit is focused on how to be an effective attacker for your organization, and how to demonstrate the maximum value to your organization, rather than “Here’s how to hack my employer.”
+      Red Team Summit is an annual conference in Q1/Q2, organized and hosted by internal Red Teams, for internal Red Teams to come together and share tips, tricks, and experiences. Red Team Summit is focused on how to be an effective attacker for your organization, and how to demonstrate the maximum value to your organization, rather than “Here's how to hack my employer.”
 
-      Offensive security operators present various TTPs and share lessons learned from accumulated successes and failures. The format is similar to Facebook's War Room event for Blue Teams.
+      Red Team professionals present various TTPs and share lessons learned from accumulated successes and failures. The format is similar to Facebook's War Room event for Blue Teams.
 
       ### Audience
       This is an invitation only event. There are no ticket sales.
 
       Attendance is limited. Your organization must submit a talk in order to receive an invitation for attendance. Submission to CFP does not guarantee presentation acceptance, but does guarantee* attendance while capacity remains available.
 
-      This event is targeted towards internal Red Teams -- the hackers responsible for simulating adversaries and testing the effective security controls of their organizations.
+      This event is targeted towards internal Red Teams -- the hackers responsible for simulating adversaries and testing the effective security controls of their organizations. We certainly appreciate our colleagues in other offensive security disciplines, not to mention our blue team friends, but to maintain the value of the event for attendees we have to be strict about who is invited.
   
-      ### A Community Event
-      Red Team Summit is a community effort. It has been hosted by various companies who strive to keep it going in order to provide a forum for discussion among Red Teams.
+      ### Community Powered
+      Red Team Summit is a community effort. It has been hosted by various organizations who strive to keep it going in order to provide a forum for discussion among Red Teams. Red Team Summit makes an effort to ensure a variety of organizations are given the opportunity to host the event, as well as to make sure that the same organization does not host too frequently.
+
+      If you're interested in hosting a future Red Team Summit event, we have a Call For Hosts that organizations can participate in. The Steering Committee then votes on the next hosting organization.
+
+      ### Global Reach
+      As of 2025, Red Team Summit has expanded beyond the confines of the United States, now offering organizations the opportunity to attend Red Team Summit events closer to home. 
+      
+      In order to stagger the events, Red Team Summit EMEA will typically take place in the fall.
 
     skills:
       enable: false
