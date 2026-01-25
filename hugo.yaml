@@ -136,7 +136,7 @@ params:
     title: "Red Team Summit"
     subtitle: "Est. 2017"
     content: |-
-      Red Team Summit brings together trusted professional red teamers from around the globe, from nearly every industry, to share knowledge, collaborate, and push the state of the art forward.
+      Red Team Summit brings together trusted, professional, internal red teamers from around the globe, from nearly every industry, to share knowledge, collaborate, and push the state of the art forward.
 
       **When: March 10-11, 2026**  
       **Where: McLean, Virginia**
@@ -145,7 +145,7 @@ params:
       enable: false
     # roundImage: true # Make hero image circular | default false
     button:
-      enable: true
+      enable: false
       name: "Submit a talk"
       url: "https://cfp.redteamsummit.com/red-team-summit-2026/cfp"
       download: false
