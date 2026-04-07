@@ -138,16 +138,16 @@ params:
     content: |-
       Red Team Summit brings together trusted, professional, internal red teamers from around the globe, from nearly every industry, to share knowledge, collaborate, and push the state of the art forward.
 
-      **When: March 10-11, 2026**  
-      **Where: McLean, Virginia**
-    image: /images/rts-2026.png
+      **When: September 10-11, 2026**  
+      **Where: Toulouse, France**
+    #image: /images/rts-2026.png
     bottomImage:
       enable: false
     # roundImage: true # Make hero image circular | default false
     button:
-      enable: false
+      enable: true
       name: "Submit a talk"
-      url: "https://cfp.redteamsummit.com/red-team-summit-2026/cfp"
+      url: "https://cfp.redteamsummit.com/red-team-summit-emea-2026/"
       download: false
       newPage: true
 
@@ -220,6 +220,16 @@ params:
     enable: true
     title: "History"
     items:
+      - 2026:
+        year: 2026
+        dates: "Mar 10 & 11"
+        attendees: 240
+        organizations: 74
+        cfp_submissions: 96
+        location: McLean, Virginia
+        logo: "/images/rts-2026.png"
+        extra: Red Team Summit hits the east coast for the first time.
+
       - 2025_emea:
         year: 2025
         dates: "Sep 24 & 25"
